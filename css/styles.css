@@ -640,6 +640,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -10826,11 +10827,12 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/grassbackground1.jpg") !important;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
+
 
 p {
   line-height: 1.75;
@@ -11026,4 +11028,8 @@ p {
 
 .address strong {
   font-size: 1.2rem;
+}
+.center-image {
+  text-align: center;
+  margin-top: -20px; /* Adjust the value to move the image up or down */
 }
